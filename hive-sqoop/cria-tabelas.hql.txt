@@ -1,0 +1,17 @@
+Table name: generation_bruno
+col     type
+generation  int
+date_introduced date
+
+
+
+Table name: pokemon_bruno
+idnum   int 
+name    string  
+hp  int 
+speed   int 
+attack  int 
+special_attack  int 
+defense int 
+special_defense int 
+generation  int
