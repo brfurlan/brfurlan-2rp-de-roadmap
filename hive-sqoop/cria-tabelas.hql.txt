@@ -1,17 +1,16 @@
-Table name: generation_bruno
-col     type
-generation  int
-date_introduced date
+CREATE TABLE generation_bruno (
+generation  INT,
+date_introduced DATE)STORED AS ORC;
 
 
 
-Table name: pokemon_bruno
-idnum   int 
-name    string  
-hp  int 
-speed   int 
-attack  int 
-special_attack  int 
-defense int 
-special_defense int 
-generation  int
+CREATE TABLE pokemon_bruno(
+idnum   INT,
+name    STRING,  
+hp  INT, 
+speed   INT, 
+attack  INT,
+special_attack  INT, 
+defense INT,
+special_defense INT, 
+generation  INT)STORED AS ORC;
