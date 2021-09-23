@@ -1,0 +1,17 @@
+--export-dir
+'/user/hive/warehouse/work_dataeng.db/pokemon_bruno'
+--table
+work_dataeng2.pokemon_bruno
+--columns
+idnum, name, hp, speed
+--connect 
+jdbc:postgresql://127.0.0.1/ --username postgres --password 123456
+--username
+root
+--password
+cloudera
+--num-mappers
+4
+--input-terminated-by
+','
+
